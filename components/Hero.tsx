@@ -42,7 +42,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="text-[40px] md:text-[56px] tracking-tighter leading-none mb-10 text-[#E2E2E2] "
+              className="text-[40px] md:text-[56px] tracking-tighter leading-none mb-10 text-[#E2E2E2] px-6"
             >
               The All-in-One Growth
               <br />

@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "StudioX - The All-in-One Growth OS for Serious X Creators",
+  title: "SuperX - The All-in-One Growth OS for Serious X Creators",
   description: "Transform the way you grow on X with powerful analytics, content creation, and engagement tools.",
 };
 
