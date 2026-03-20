@@ -35,7 +35,7 @@ export default function Testimonials() {
   return (
     <Frame>
       <section className="bg-[#181818] text-white py-20">
-        <div className="max-w-7xl mx-auto md:px-12 px-0">
+        <div className="max-w-7xl mx-auto md:px-12 px-4">
           <div className="grid lg:grid-cols-3 gap-2 md:mx-16 mx-6 lg:mx-0">
             {testimonials.map((testimonial, idx) => (
               <motion.div
@@ -48,7 +48,8 @@ export default function Testimonials() {
                 style={
                   idx === 1
                     ? {
-                        background: "linear-gradient(180deg, #1F1F1F 0%, #090808 80px)",
+                        background:
+                          "linear-gradient(180deg, #1F1F1F 0%, #090808 80px)",
                         boxShadow: "inset 0px 8px 24px -5px #84848440",
                         border: "1px solid #363636",
                       }
@@ -63,7 +64,9 @@ export default function Testimonials() {
                 <p className="text-[#8A8585] mb-6 text-[12.5px] leading-loose ">
                   {testimonial.text}
                 </p>
-                <div className={`flex items-center gap-3  ${idx === 0 ? "pt-[20px]" : ""} `}>
+                <div
+                  className={`flex items-center gap-3  ${idx === 0 ? "pt-[20px]" : ""} `}
+                >
                   <div
                     className="bg-[#1A1A1A] flex items-center gap-3 rounded-[9px] border border-[#272727] bg-no-repeat"
                     style={{

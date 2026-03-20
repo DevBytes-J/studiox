@@ -10,7 +10,7 @@ export default function Features() {
   return (
     <Frame>
       <section className="bg-[#181818] text-white py-20">
-        <div className="max-w-7xl mx-auto md:px-12 px-0">
+        <div className="max-w-7xl mx-auto md:px-12 px-4">
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -32,7 +32,7 @@ export default function Features() {
           {/* ── Mobile / Tablet layout (hidden on desktop) ── */}
           <div className="min-[1300px]:hidden">
             <div className="mb-8 px-6">
-              <h1 className="text-[36px] font-medium mb-6 text-[#E2E2E2] leading-tight text-center">
+              <h1 className="md:text-[36px] text-[24px]  font-medium mb-6 text-[#E2E2E2] leading-tight text-center">
                 Built For Serious Creators
               </h1>
               <p className="text-[#BCB5B5] mb-4 text-center md:text-[16px] text-[14px]">

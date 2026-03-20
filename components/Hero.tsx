@@ -11,8 +11,8 @@ import { motion } from "framer-motion";
 export default function Hero() {
   return (
     <Frame>
-      <section className="relative  bg-[#181818] text-[#f5f5f5] font-sans selection:bg-orange-500/30 mt-[70px]">
-        <div className="relative max-w-7xl mx-auto md:px-6 lg:px-12 pt-17 flex flex-col">
+      <section className="relative overflow-hidden bg-[#181818] text-[#f5f5f5] font-sans selection:bg-orange-500/30 pt-[59px]">
+        <div className="relative max-w-7xl mx-auto md:px-6 px-10 pt-17 flex flex-col lg:pl-12 lg:pr-8">
           {/* LEFT CONTENT */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -42,7 +42,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="text-[40px] md:text-[56px] tracking-tighter leading-none mb-10 text-[#E2E2E2] px-6"
+              className="text-[40px] md:text-[56px] tracking-tighter leading-none mb-10 text-[#E2E2E2] "
             >
               The All-in-One Growth
               <br />
@@ -53,7 +53,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="text-[#B1B1B1] md:text-[16px] px-6 text-[14px] leading-relaxed mb-12"
+              className="text-[#B1B1B1] md:text-[16px] text-[14px] leading-relaxed mb-12"
             >
               Create smarter. Engage strategically. Scale predictably.
               <br />
@@ -147,7 +147,7 @@ export default function Hero() {
                   height={400}
                   className="absolute top-70 left-200 -translate-x-1/2  z-0 opacity-70  max-[1300px]:hidden"
                 />
-                <div className="relative overflow-hidden -mb-21 max-[1300px]:mb-0 mx-0 max-[1300px]:mx-6">
+                <div className="relative overflow-hidden -mb-21 m">
                   <Image
                     src="/hero/hero-dash.png"
                     alt="Dashboard preview"

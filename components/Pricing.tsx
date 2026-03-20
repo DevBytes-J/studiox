@@ -34,7 +34,7 @@ export default function Pricing() {
   return (
     <Frame>
       <section className="bg-[#181818]  pt-20">
-        <div className="max-w-7xl mx-auto px-9 ">
+        <div className="max-w-7xl mx-auto md:px-9 px-10 ">
           <div className="relative flex justify-center items-center max-[1300px]:hidden">
             <Image
               src="/pricing/bg1.png"
@@ -64,9 +64,10 @@ export default function Pricing() {
               Growth Infrastructure.
             </h2>
             <p className="text-[#8A8585] text-[15px] w-full max-w-xs lg:max-w-[30%] mb-[59px]">
-              Simple pricing for the full SuperX Growth OS. <br className="lg:block hidden"/> No stacked
-              tools. No hidden add-ons. <br className="lg:block hidden"/> Just one system powering your 𝕏
-              growth.
+              Simple pricing for the full SuperX Growth OS.{" "}
+              <br className="lg:block hidden" /> No stacked tools. No hidden
+              add-ons. <br className="lg:block hidden" /> Just one system
+              powering your 𝕏 growth.
             </p>
           </div>
 

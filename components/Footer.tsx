@@ -1,10 +1,14 @@
 import Image from "next/image";
-import Frame from "./Frame";
-
 export default function Footer() {
   return (
     <footer className="bg-[#181818] text-white">
-      <Frame>
+      <div className="relative">
+        <div className="absolute inset-0 pointer-events-none z-10">
+          <div className="max-w-7xl mx-auto px-6 h-full relative">
+            <div className="absolute left-[29px] top-0 bottom-0 w-px bg-white/10" />
+            <div className="absolute right-[29px] top-0 bottom-0 w-px bg-white/10" />
+          </div>
+        </div>
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-row">
             <div className="border-r border-[#363636] flex-1 lg:block hidden">
@@ -87,16 +91,20 @@ export default function Footer() {
             </div>
           </div>
         </div>
-      </Frame>
+      </div>
       <div className="relative">
-        <div className="absolute -top-[9px] left-[4%] right-[4%] h-px flex justify-between z-30">
-          <div className="w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-b-8 border-b-[#A3A3A3] translate-y-px" />
-          <div className="w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-b-8 border-b-[#A3A3A3] translate-y-px" />
+        <div className="absolute -top-[9px] left-0 right-0 flex justify-between z-30 pointer-events-none">
+          <div className="max-w-7xl mx-auto px-6 w-full flex justify-between">
+            <div className="w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-b-8 border-b-[#A3A3A3] translate-y-px" />
+            <div className="w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-b-8 border-b-[#A3A3A3] translate-y-px" />
+          </div>
         </div>
-        <div className="border-t border-[#363636] p-4 text-center">
-          <p className="text-[#939393] text-sm">
-            2026 SuperX. All rights reserved.
-          </p>
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="border-t border-[#363636] p-4 text-center">
+            <p className="text-[#939393] text-sm">
+              2026 SuperX. All rights reserved.
+            </p>
+          </div>
         </div>
       </div>
     </footer>

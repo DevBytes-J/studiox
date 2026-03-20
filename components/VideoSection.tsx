@@ -5,7 +5,7 @@ export default function VideoSection() {
   return (
     <Frame>
       <section className="bg-[#181818] text-white py-20">
-        <div className="max-w-7xl mx-auto md:px-12 px-6">
+        <div className="max-w-7xl mx-auto md:px-12 px-10">
           <div
             className="flex rounded-full p-[1px] w-fit max-[1300px]:mx-auto mx-0"
             style={{
@@ -27,8 +27,7 @@ export default function VideoSection() {
           <div className="flex flex-row max-[1300px]:flex-col justify-between items-start max-[1300px]:items-center">
             <div className="flex flex-col items-start max-[1300px]:items-center">
               <h2 className="md:text-[36px] text-[30px] font-medium mb-6 text-[#E2E2E2] max-[1300px]:text-center text-left">
-                Your Growth OS {" "}
-                <br className="lg:block hidden"/>
+                Your Growth OS <br className="lg:block hidden" />
                 Embedded Directly into X
               </h2>
 
