@@ -212,7 +212,7 @@ export default function UnifiedFeatures() {
   return (
     <Frame>
       <section className="bg-[#181818] text-white py-[80px]">
-        <div className="max-w-[1240px] mx-auto lg:px-6 sm:px-8  px-10 ">
+        <div className="max-w-[1240px] mx-auto md:px-10 px-4">
           <div className="flex flex-col justify-center items-center">
             <div
               className="flex rounded-full p-[1px] w-fit"
@@ -239,7 +239,7 @@ export default function UnifiedFeatures() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 0.6, delay: 0.1 }}
-                className={`flex max-[1300px]:flex-col flex-row gap-10 mb-10 md:mx-22 lg:mx-0 mx-0 ${
+                className={`flex max-[1300px]:flex-col flex-row gap-10 mb-10 md:mx-16 lg:mx-0 mx-0 ${
                   feature.imageSide === "left" ? "lg:flex-row-reverse" : ""
                 }`}
               >
@@ -384,15 +384,17 @@ export default function UnifiedFeatures() {
                   </div>
                 </motion.div>
               </motion.div>
-              <div className="flex items-center my-[35px]">
-                <span className="text-[#3A3A3A] flex items-center justify-center w-1 h-px bg-[#343434] relative">
-                  <span className="absolute text-xs leading-none text-[#9F9F9F]">+</span>
-                </span>
-                <div className="flex-1 h-px bg-[#343434]" />
-                <span className="text-[#3A3A3A] flex items-center justify-center w-1 h-px bg-[#343434] relative">
-                  <span className="absolute text-xs leading-none text-[#9F9F9F]">+</span>
-                </span>
-              </div>
+              {idx < features.length - 1 && (
+                <div className="flex items-center my-[35px] md:mx-16 lg:mx-0 mx-0">
+                  <span className="text-[#3A3A3A] flex items-center justify-center w-1 h-px bg-[#343434] relative">
+                    <span className="absolute text-xs leading-none text-[#9F9F9F]">+</span>
+                  </span>
+                  <div className="flex-1 h-px bg-[#343434]" />
+                  <span className="text-[#3A3A3A] flex items-center justify-center w-1 h-px bg-[#343434] relative">
+                    <span className="absolute text-xs leading-none text-[#9F9F9F]">+</span>
+                  </span>
+                </div>
+              )}
             </div>
           ))}
         </div>

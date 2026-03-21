@@ -71,7 +71,7 @@ export default function Pricing() {
             </p>
           </div>
 
-          <div className="grid max-[1300px]:grid-cols-1 grid-cols-2 gap-10 lg:gap-[96px] max-w-4xl md:mx-16 lg:mx-auto mx-0 items-stretch">
+          <div className="grid max-[1300px]:grid-cols-1 grid-cols-2 gap-10 lg:gap-[96px] max-w-4xl md:mx-16 lg:mx-auto mx-2 items-stretch lg:pb-0 max-[1300px]:pb-20">
             {plans.map((plan, idx) => (
               <div key={idx} className="relative h-full">
                 {/* Frame with + at corners - outside */}
@@ -112,7 +112,7 @@ export default function Pricing() {
                 </div>
                 <div
                   key={idx}
-                  className="rounded-2xl p-2 relative border border-[#373737] h-full"
+                  className="rounded-2xl p-2 relative border border-[#373737] h-full "
                   style={{
                     background:
                       "linear-gradient(1.37deg, #191919 1.17%, #1F1F1F 122.75%)",

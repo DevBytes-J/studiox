@@ -21,7 +21,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#181818] backdrop-blur-lg">
-        <div className="max-w-7xl mx-auto py-4 px-4 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto py-4 px-6 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Image src="/logo.png" alt="SuperX Logo" width={25} height={25} />
             <span className="text-xl font-bold font-sansation text-white">

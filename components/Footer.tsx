@@ -37,7 +37,7 @@ export default function Footer() {
                 </ul>
               </div>
 
-              <div className="border-l border-[#363636] p-6 flex-1">
+              <div className="sm:border-l border-[#363636] border-none p-6 flex-1">
                 <h4 className="font-medium mb-4 uppercase ">Resources</h4>
                 <ul className="space-y-2 text-sm text-[#BCB5B5]">
                   <li>
@@ -73,7 +73,7 @@ export default function Footer() {
                 </ul>
               </div>
 
-              <div className="border-l border-[#363636] p-6 flex-1">
+              <div className="sm:border-l border-[#363636] border-none p-6 flex-1">
                 <h4 className="font-medium mb-4 uppercase">Legal</h4>
                 <ul className="space-y-2 text-sm text-[#BCB5B5]">
                   <li>

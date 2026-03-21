@@ -44,7 +44,7 @@ export default function SocialProof() {
   return (
     <Frame>
       <section className="bg-[#181818] text-white py-20">
-        <div className="max-w-7xl mx-auto md:px-6 px-10">
+        <div className="max-w-7xl mx-auto lg:px-6 sm:px-8 px-10">
           <div className="flex flex-col gap-4 mx-auto items-center">
             <div
               className="flex rounded-full p-[1px] w-fit"
