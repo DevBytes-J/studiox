@@ -212,7 +212,7 @@ export default function UnifiedFeatures() {
   return (
     <Frame>
       <section className="bg-[#181818] text-white py-[80px]">
-        <div className="max-w-[1240px] mx-auto md:px-10 px-4">
+        <div className="max-w-[1240px] mx-auto md:px-10 px-10">
           <div className="flex flex-col justify-center items-center">
             <div
               className="flex rounded-full p-[1px] w-fit"
